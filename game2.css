@@ -16,9 +16,9 @@ body {
 }
 
 .choice-btn {
-    height: 120px;
-    width: 120px;
-    font-size: 2.5rem;
+    height: 80px; 
+    width: 80px; 
+    font-size: 2rem; 
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     border: none;
@@ -64,5 +64,21 @@ body {
     100% {
         transform: translateY(100vh);
         opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .choice-btn {
+        height: 60px; 
+        width: 60px;
+        font-size: 1.5rem;
+    }
+    
+    .game-card {
+        padding: 15px; 
+    }
+
+    h1 {
+        font-size: 2rem; 
     }
 }
